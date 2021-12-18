@@ -1,0 +1,18 @@
+{
+  "name": "resolute-browser",
+  "packageManager": "yarn@3.1.1",
+  "type": "module",
+  "dependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^2.0.0",
+    "typescript": "^4.5.4",
+    "webextension-polyfill": "^0.8.0"
+  },
+  "scripts": {
+    "build": "node bin/build.js"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.0.1",
+    "@types/webextension-polyfill": "^0.8.2",
+    "parcel": "^2.0.1"
+  }
+}
