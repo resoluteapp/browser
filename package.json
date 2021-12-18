@@ -8,7 +8,8 @@
     "webextension-polyfill": "^0.8.0"
   },
   "scripts": {
-    "build": "node bin/build.js"
+    "build": "parcel build src/manifest.json",
+    "dev": "parcel src/manifest.json"
   },
   "devDependencies": {
     "@parcel/config-webextension": "^2.0.1",
