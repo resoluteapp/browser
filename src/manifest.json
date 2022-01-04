@@ -2,10 +2,9 @@
   "manifest_version": 2,
   "name": "Resolute",
   "version": "1.0",
-  "content_scripts": [
-    {
-      "matches": ["*://github.com/*"],
-      "js": ["./content/index.ts"]
-    }
-  ]
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Resolute",
+    "default_popup": "./popup/index.html"
+  }
 }
